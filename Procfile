@@ -1,1 +1,1 @@
-web:    java -jar target/dependency/webapp-runner.jar --port 9876 target/*.war
+web:    java -jar target/dependency/webapp-runner.jar --port 9988 target/*.war
