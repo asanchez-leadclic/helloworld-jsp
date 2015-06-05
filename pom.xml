@@ -14,7 +14,7 @@
                            <artifactId>heroku-maven-plugin</artifactId>
                            <version>0.4.3</version>
                            <configuration>
-                           <appName>obscure-sierra-7788</appName>
+                           <appName>test-codenvy</appName>
                            </configuration>
                   </plugin>
          </plugins>
