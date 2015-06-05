@@ -1,1 +1,1 @@
-mvn -B -DskipTests=true clean install
+mvn clean heroku:deploy-war
