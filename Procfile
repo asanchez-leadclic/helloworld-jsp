@@ -1,1 +1,1 @@
-jar cvf helloworld.war
+mvn -B -DskipTests=true clean install
