@@ -1,3 +1,3 @@
-web: sh target/bin/java-web-sample
+web: sh target/java-web-sample
 
 
