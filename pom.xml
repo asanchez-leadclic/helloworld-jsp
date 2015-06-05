@@ -10,12 +10,16 @@
         <finalName>java-web-sample</finalName>
         <plugins>
                   <plugin>
-                           <groupId>com.heroku.sdk</groupId>
-                           <artifactId>heroku-maven-plugin</artifactId>
-                           <version>0.4.3</version>
-                           <configuration>
-                           <appName>test-codenvy</appName>
-                           </configuration>
+                         <groupId>org.apache.maven.plugins</groupId>
+                         <artifactId>maven-dependency-plugin</artifactId>
+                         <version>2.4</version>
+                         <executions>
+                             <execution>
+                                 <id>copy-dependencies</id>
+                                 <phase>package</phase>
+                                 <goals><goal>copy-dependencies</goal></goals>
+                             </execution>
+                         </executions>
                   </plugin>
          </plugins>
 </project>
