@@ -1,1 +1,1 @@
-mvn clean heroku:deploy-war
+web: sh target/bin/webapp
